@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLA</title>
+
+    <!-- -------------------js--------------------- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" ></script>
+  <script src="script.js" defer></script>
+
+
+  <!-- --------------------style------------------ -->
+  
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="head">
+        <div class="container">
+            <div class="navbar row jsc">
+                <div class="logo row">
+                    <img src="./imgs/58481887cef1014c0b5e49a8.png" alt="">
+                    <div class="links row">
+                        <li><a href="./s1pro.html">S1</a></li>
+                            <li><a href="./ola s1 air.html">S1 Air</a></li>
+                    </div>
+                </div>
+                <div class="icon">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="sec-1 card">
+        <div class="conatiner">
+            <div class="t-1 footer">
+                <input type="button" value="View offer">
+            </div>
+        </div>
+    </section>
+    <section class="sec-2 card">
+        <div class="container row spb pd">
+            <div class="col-40 s2-img hg">
+                <img src="./imgs/s1Air1.webp" id="olaImage" alt="">
+            </div>
+            <div class="col-40 hg right">
+                <div class="t-2">
+                    <h1>Introducing Ola S1 Air</h1>
+                    <h1>at just ₹84,999</h1>
+                    <p>Make a statement on the streets</p>
+                </div>
+                <div class="li-1" onclick="changeImage('imgs/s1Air1.webp')">
+                    <h2>Stunning design</h2>
+                    <p>A flat board design and a fork suspension makes it perfect for the city</p>
+                </div>
+                <div class="li-2" onclick="changeImage('./imgs/image_28221_bce59aaee4.webp')">
+                    <h2>Spectacular performance</h2>
+                    <p>With a lightweight build and great pickup, ride hassle-free on every road.</p>
+                </div>
+                <div class="li-3" onclick="changeImage('./imgs/futuristic_tech_1_3d60052346.webp')">
+                    <h2> Futuristic tech</h2>
+                    <p>Make your daily ride fun with music, moods, and modes on multiple profiles</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-3 card">
+        <div class="container">
+            <div class="t-3 row spb pd">
+                <div>
+                    <h1>There’s an S1 for</h1>
+                    <h1>everyone</h1>
+                </div>
+                <div>
+                    <input type="button" value="Explore S1">
+                    <input id="btn" type="button" value="Free test ride">
+                </div>
+            </div>
+            <div class="row spb">
+                <div class="col-30 cart">
+                    <img src="./imgs/compare_Full_S1_Air_f61b4e7fcd.webp" alt="">
+                    <div class="c-logo row">
+                        <img src="./imgs/58481887cef1014c0b5e49a8.png" alt="">
+                        <h1>S1 Air <span>NEW</span></h1>
+                    </div>
+                    <h2>Lighter faster and nimbler ride made possible</h2>
+                    <p>STARTS AT ₹84,999</p>
+                    <a href="#">Reserve for ₹999 →</a>
+                </div>
+                <div class="col-30 cart">
+                    <img src="./imgs/Ola_S1_ccad4fef85 1.webp" alt="">
+                    <div class="c-logo row">
+                        <img src="./imgs/58481887cef1014c0b5e49a8.png" alt="">
+                        <h1>S1 </h1>
+                    </div>
+                    <h2>Get the best features for an unbeatable price</h2>
+                    <p>STARTS AT ₹99,999</p>
+                    <a href="#">Order S1 →</a>
+                </div>
+
+                <div class="col-30 cart">
+                    <img src="./imgs/Advanced_ola_s1_pro_ee0e04ca2f.webp" alt="">
+                    <div class="c-logo row">
+                        <img src="./imgs/58481887cef1014c0b5e49a8.png" alt="">
+                        <h1>S1 Pro</h1>
+                    </div>
+                    <h2>Pro performance, Pro design & Pro tech</h2>
+                    <p>STARTS AT ₹1,39,999</p>
+                    <a href="#">Order S1 Pro →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-4 pd card">
+        <div class="container row spb">
+            <div class="col-40">
+                <div class="t-4">
+                    <h1>Visit our electrifying experience centres</h1>
+                    <p>Experience the unbeatable performance of the Ola S1. One-stop destination for all the post sales
+                        care and maintenance. Learn about buying the Ola S1 with EMI options, documentation.</p>
+                    <a href="#"> Book visit →</a>
+                </div>
+            </div>
+            <div class="col-40 s4-img">
+                <img src="./imgs/image_28165_836f17a5d2.webp" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="container card ">
+        <section class="sec-5 sp row spb">
+            <div class="col-40">
+                <div class="t-5">
+                    <span>NEW LAUNCH</span>
+                    <h1>Brand new add-ons</h1>
+                    <p>Customise your scooter with accessories and add-ons, and buy exclusive Ola merchandise at newly
+                        launched store</p>
+                    <a href="#">Visit store →</a>
+                </div>
+            </div>
+            <div class="col-40 ">
+            </div>
+    </div>
+    </section>
+    <div class="container card">
+        <section class="sec-6 ">
+            <div class="t-6">
+                <h1>A Hypercharge towards sustainability</h1>
+            </div>
+            <div class="t-6img">
+                <img src="./imgs/With_Scooter_1_1_8c34f83221.webp" alt="">
+            </div>
+        </section>
+    </div>
+    <div class="container card">
+        <section class="sec-7 ">
+            <div class="container row spb pd">
+            <div class="col-40 s2-img hg">
+                <img src="./imgs/s1Air1.webp" id="bannerImage" alt="">
+            </div>
+                <div class="col-40">
+                    <div class="t-2">
+                        <h1>For you, everywhere</h1>
+                    </div>
+                    <div class="li-1" onclick="changeImage('Ever_growing_service_network_1_96d5bfae1b.webp')">
+                        <h2>Ever-growing service network</h2>
+                        <p>Find an Ola service centre in 600+ major cities and towns all around India</p>
+                    </div>
+                    <div class="li-2" onclick="changeImage('./imgs/s1Air1.webp')">
+                        <h2>Service at your doorstep</h2>
+                        <p>We will pick up the scooter, fix it and deliver it back to you in no time</p>
+                    </div>
+                    <div class="li-3" onclick="changeImage('./imgs/futuristic_tech_1_3d60052346.webp')">                        <h2>Predictive AI maintanence</h2>
+                        <p>Your Ola scooter provides preventive notifications and nudges on overall vehicle health</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container  card">
+        <section class="sec-8 pd">
+            <div class="t-8 pd">
+                <h1>India’s most ambitious car</h1>
+            </div>
+            <div class="v-8 pd">
+                <video src="./imgs/ev_sport_car.mp4" muted autoplay loop></video>
+            </div>
+        </section>
+    </div>
+    <section class="sec-9 card">
+        <div class="container">
+            <div class="t-3 t-h1">
+                <div>
+                    <h1>Our latest</h1>
+                    <h1>achievements</h1>
+                </div>
+
+            </div>
+            <div class="row spb">
+                <div class="col-30 cart-2 c-1">
+                    <img src="./imgs/achievement1.webp" alt="">
+                    <div class="t-9">
+                        <h2>Namaste Nepal!</h2>
+                        <p>As part of our next big venture into taking the S1 Series into the global arena, we unveiled
+                            our scooters at the NADA EV expo in Nepal on the 22nd of September. With this endeavour,
+                            we’re one step closer to making India the epicentre of the global EV revolution\ </p>
+                    </div>
+                </div>
+                <div class="col-30 cart-2 c-2">
+                    <img src="./imgs/move_OS3.webp" alt="">
+                    <div class="t-9">
+                        <h2>Times the Fun</h2>
+                        <p>MoveOS, the heart behind the S1 series is ready for another upgrade! Watch this space to see
+                            all our upcoming features! </p>
+                    </div>
+                </div>
+                <div class="col-30 cart-2 c-3">
+                    <img src="./imgs/image_28165_836f17a5d2.webp" alt="">
+                    <div class="t-9">
+                        <h2>Coming Soon: 200 Experience Centres</h2>
+                        <p>With over 200 Experience centres about to launch all around the country and 20 locations
+                            already live, maintaining your scooter has never been easier! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-10 card ">
+        <div class="container">
+            <div class="t-10 pd">
+                <h1>Tech for the world,</h1>
+                <h1>made in India</h1>
+            </div>
+            <div class="row spb">
+                <div class="col-50 v-10">
+                    <video src="./imgs/BIC_shorts.mp4" controls muted
+                        poster="./imgs/battery_innovation_ad5b70e61c.webp"></video>
+                </div>
+                <div class="col-35">
+                    <div class="t-10">
+                        <h2>Battery Innovation Centre</h2>
+                        <p>We're building a state of the art Battery Innovation Center (BIC) in Bangalore with a $500
+                            Million investment, making it one of the world's largest most advanced cell R&D facility
+                            housing over 500 engineers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row spb">
+                <div class="col-35 pd">
+                    <div class="t-10">
+                        <div class="pd">
+                            <h2>Ola's Indigenous Li-Ion Battery</h2>
+                            <p>We're working towards making our own cell technology to scale faster and revolutionise
+                                the EV segment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-50 i-10 pd">
+                    <img src="./imgs/ola_battery_8bb77e59d6.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-11 card">
+        <div class="container">
+            <div class="t-11 pd">
+                <h1>The largest 2W factory in the</h1>
+                <h1>world, right here in India</h1>
+            </div>
+            <div class="row jsc pd">
+                <div class="col-25 i-11">
+                    <img src="./imgs/home_future1_793afe9faf.webp" alt="">
+                </div>
+                <div class="col-25 i-11">
+                    <img src="./imgs/home_future2_88137c3413.webp" alt="">
+                </div>
+                <div class="col-25 i-11">
+                    <img src="./imgs/home_future3_994783888d.webp" alt="">
+                </div>
+                <div class="col-25 i-11">
+                    <img src="./imgs/FF_3_1bb25157fe.webp" alt="">
+                </div>
+            </div>
+
+            <div class="v-11">
+                <video src="./imgs/hp-video-mweb.mp4" controls muted
+                    poster="./imgs/FF_desktop_1_ab19d55174.webp"></video>
+            </div>
+            <div class="row spb">
+                <div class="col-45 p-11">
+                    <p>Powered by over 3000 AI-driven robots, the Ola Futurefactory is the world’s most advanced two
+                        wheeler manufacturing facility. With over 100 acres of forest cover and a carbon negative
+                        footprint, it is also the world’s most sustainable two-wheeler factory</p>
+                </div>
+                <div class="col-45 a-11">
+                    <a href="#">More about futurefactoryimage → </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-12 card">
+        <div class="container row spb ">
+            <div class="col-45">
+                <div class="t-12">
+                    <h1> <i> Stay up to date</i> </h1>
+                    <div class="row inp">
+                        <input type="email" name="" id="" placeholder="Your Email ID">
+                        <input id="button" type="button" value="SUBSCRIBE TO NEWSLETTER">
+                    </div>
+                </div>
+            </div>
+            <div class="col-45 t-12">
+                <div class="box">
+                    <h2>Beware of fake revolutionaries!</h2>
+                    <p>We do not have any dealerships. If you are approached by any person or organisation(s) claiming
+                        to sell our revolutionary Ola Scooter through any website / phone call / poster / social media
+                        post / whatsapp forward, we urge you to inform the local police and / or report it to
+                        legal@olaelectric.com.</p>
+                   <li><a href="#">Learn moreimage → </a></li> 
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
